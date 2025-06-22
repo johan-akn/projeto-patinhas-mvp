@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer-links">
         <a
           className="link-ig"
-          href="https://www.instagram.com/projetopatinhassc/"
+          href="https://www.instagram.com/scpatinhas/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram Projeto Patinhas"
