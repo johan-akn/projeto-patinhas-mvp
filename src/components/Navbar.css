@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    gap: 25px;
+    min-width: 100vw;
+    height: 5rem;
+    background-color: #FEFBF6; 
+    box-shadow: 0 2px 8px 0 rgba(67, 62, 73, 0.05);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #A182D1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.navbar a:hover {
+    color: #F9B94F;
+}
+
+
+
+@media (max-width: 700px) {
+    .navbar {
+        gap: 10px;
+        height: 3.5rem;
+    }
+    .navbar a {
+        font-size: 1.1rem;
+        padding: 0.2em 0.4em;
+    }
+}
